@@ -1,0 +1,76 @@
+﻿
+*{
+margin:0;
+padding:0;
+}
+video{
+position:fixed;
+z-index:-1;
+width:100%;
+filter:blur(3px);
+height:100%;
+}
+.main-box{
+position:absolute;
+top:50%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+.login-form{
+width:250px;
+height:350px;
+display:flex;
+flex-direction:column;
+align-items:center;
+border-radius:20px;
+background:rgba(255,255,255,0.4);
+box-shadow: 0 0 15px #f00;
+color:#fff;
+padding:80px;
+}
+.login h2{
+letter-spacing:2px;
+}
+input{
+width:300px;
+margin-top:50px;
+padding:10px;
+outline:none;
+background:transparent;
+border:2px solid #f00;
+border-radius:40px;
+transition:0.8s;
+font-size:20px;
+color:#000;
+cursor:pointer;
+}
+input:hover{
+box-shadow:0 0 20px #f00;
+background-color:#ffebcd;
+}
+.botton{
+padding: 5px 20px;
+margin-top:50px;
+cursor:pointer;
+background:transparent;
+border:2px solid #f00;
+border-radius:40px;
+margin-bottom:10px;
+font-weight:bolder;
+color:blue;
+}
+.botton:hover{
+box-shadow:0 0 30px #fff;
+background-color:#000;
+color:#fff;
+}
+.userimg{
+width:70px;
+border-radius:50%;
+margin-top:-120px;
+}
+.no_account{
+font-size:18px;
+color:#000;
+font-weight:bold;
+}
